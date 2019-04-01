@@ -1,0 +1,2 @@
+grep "Test net output #0: acc =" log.txt > testacc.refine
+grep "Train net output #0: acc =" log.txt > trainacc.refine
