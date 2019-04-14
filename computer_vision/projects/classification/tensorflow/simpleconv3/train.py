@@ -27,7 +27,7 @@ if __name__=="__main__":
     iterator = dataset.data.make_one_shot_iterator()
     dataset_size = dataset.dataset_size
     batch_images,batch_labels = iterator.get_next()
-    Ylogits = simpleconv3(batch_images)
+    Ylogits = simpleconv3(batch_images,True)
 
     print "Ylogits size=",Ylogits.shape
 
@@ -39,7 +39,6 @@ if __name__=="__main__":
     update_ops = tf.get_collection(tf.GraphKeys.UPDATE_OPS)
     with tf.control_dependencies(update_ops):
         train_step = tf.train.AdamOptimizer(learning_rate).minimize(cross_entropy)
-
     saver = tf.train.Saver()
     in_steps = 100
     checkpoint_dir = 'checkpoints/'

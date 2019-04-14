@@ -9,7 +9,7 @@
 # or create issues
 # =============================================================================
 import tensorflow as tf
-from tensorflow.contrib.data import Dataset
+from tensorflow.data import Dataset
 from tensorflow.python.framework import dtypes
 from tensorflow.python.framework.ops import convert_to_tensor
 import numpy as np
