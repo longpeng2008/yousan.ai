@@ -1,0 +1,14 @@
+test_iter: 300
+test_interval: 100
+display: 100
+# batch size = 8, total images = 6000, 750 iters is one epoch
+max_iter: 20000
+
+lr_policy: "fixed"
+base_lr: 0.001
+
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "snapshot/ft_all"
+net: "ft_all.prototxt"

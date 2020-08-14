@@ -1,0 +1,5 @@
+dataset.py 数据接口
+net.py,net_fluid分别是不使用fluid接口和使用fluid接口的网络定义文件
+train.py,train_fluid分别是不使用fluid接口和使用fluid接口的训练文件
+infer.py,infer_fluid分别是不使用fluid接口和使用fluid接口的测试文件
+

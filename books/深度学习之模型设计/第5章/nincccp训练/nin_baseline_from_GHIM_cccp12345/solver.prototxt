@@ -1,0 +1,14 @@
+net: "train.prototxt"
+test_interval:100
+test_iter:30
+base_lr: 0.0001
+type: "Adam"
+lr_policy: "fixed"
+momentum: 0.9
+momentum2: 0.999
+weight_decay: 0.000
+display: 100
+max_iter: 200000
+snapshot: 10000
+snapshot_prefix: "models/nin_GHIM_finetune"
+solver_mode: GPU

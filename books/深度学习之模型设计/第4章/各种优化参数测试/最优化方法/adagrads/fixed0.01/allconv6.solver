@@ -1,0 +1,12 @@
+net: "allconv6.prototxt"
+test_interval:100
+test_iter: 15
+type: "AdaGrad"
+weight_decay: 0.005
+display: 100
+base_lr: 0.01
+lr_policy: "fixed"
+max_iter: 100000
+snapshot: 10000
+snapshot_prefix: "models/allconv6_"
+solver_mode: GPU

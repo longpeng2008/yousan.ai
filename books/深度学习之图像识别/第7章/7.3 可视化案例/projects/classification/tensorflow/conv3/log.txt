@@ -1,0 +1,119 @@
+WARNING:tensorflow:From train.py:25: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+2018-11-24 18:43:25.763831: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+num of train datas= 900
+data type= <class 'tensorflow.python.data.ops.dataset_ops.TensorSliceDataset'>
+self.data type= <class 'tensorflow.python.data.ops.dataset_ops.BatchDataset'>
+x size= (?, 48, 48, 3)
+relu_conv1 size= (?, 23, 23, 12)
+relu_conv2 size= (?, 11, 11, 24)
+relu_conv3 size= (?, 5, 5, 48)
+dense size= (?, 128)
+logits size= (?, 2)
+Ylogits size= (?, 2)
+0 iterations,loss= 0.7160044 acc= 0.5
+100 iterations,loss= 0.5758081 acc= 0.703125
+200 iterations,loss= 0.539541 acc= 0.75
+300 iterations,loss= 0.47580814 acc= 0.796875
+400 iterations,loss= 0.37486905 acc= 0.796875
+500 iterations,loss= 0.38265347 acc= 0.78125
+600 iterations,loss= 0.3603629 acc= 0.8125
+700 iterations,loss= 0.32796496 acc= 0.84375
+800 iterations,loss= 0.23114748 acc= 0.90625
+900 iterations,loss= 0.4309301 acc= 0.890625
+1000 iterations,loss= 0.21899745 acc= 0.921875
+1100 iterations,loss= 0.210931 acc= 0.9375
+1200 iterations,loss= 0.24633302 acc= 0.921875
+1300 iterations,loss= 0.17222583 acc= 0.9375
+1400 iterations,loss= 0.23541728 acc= 0.921875
+1500 iterations,loss= 0.2438985 acc= 0.859375
+1600 iterations,loss= 0.18663442 acc= 0.90625
+1700 iterations,loss= 0.19350326 acc= 0.90625
+1800 iterations,loss= 0.15358609 acc= 0.9375
+1900 iterations,loss= 0.17328712 acc= 0.9375
+2000 iterations,loss= 0.1997186 acc= 0.953125
+2100 iterations,loss= 0.18264316 acc= 0.890625
+2200 iterations,loss= 0.14880922 acc= 0.9375
+2300 iterations,loss= 0.17569444 acc= 0.921875
+2400 iterations,loss= 0.1994058 acc= 0.90625
+2500 iterations,loss= 0.12816057 acc= 0.984375
+2600 iterations,loss= 0.2639482 acc= 0.890625
+2700 iterations,loss= 0.2171458 acc= 0.90625
+2800 iterations,loss= 0.19030324 acc= 0.921875
+2900 iterations,loss= 0.09984329 acc= 0.9375
+3000 iterations,loss= 0.06401741 acc= 0.984375
+3100 iterations,loss= 0.09984138 acc= 0.953125
+3200 iterations,loss= 0.083967 acc= 0.953125
+3300 iterations,loss= 0.1553013 acc= 0.9375
+3400 iterations,loss= 0.06688249 acc= 0.984375
+3500 iterations,loss= 0.11205874 acc= 0.9375
+3600 iterations,loss= 0.11955382 acc= 0.9375
+3700 iterations,loss= 0.1673761 acc= 0.9375
+3800 iterations,loss= 0.055368796 acc= 1.0
+3900 iterations,loss= 0.1639986 acc= 0.9375
+4000 iterations,loss= 0.11916659 acc= 0.9375
+4100 iterations,loss= 0.2798246 acc= 0.921875
+4200 iterations,loss= 0.15134004 acc= 0.96875
+4300 iterations,loss= 0.13387729 acc= 0.9375
+4400 iterations,loss= 0.12031626 acc= 0.9375
+4500 iterations,loss= 0.14076175 acc= 0.953125
+4600 iterations,loss= 0.06490501 acc= 0.96875
+4700 iterations,loss= 0.16240647 acc= 0.9375
+4800 iterations,loss= 0.107771024 acc= 0.96875
+4900 iterations,loss= 0.09652579 acc= 0.953125
+5000 iterations,loss= 0.10391992 acc= 0.9375
+5100 iterations,loss= 0.07653898 acc= 0.953125
+5200 iterations,loss= 0.08175469 acc= 0.953125
+5300 iterations,loss= 0.09264047 acc= 0.9375
+5400 iterations,loss= 0.047535993 acc= 0.96875
+5500 iterations,loss= 0.051545873 acc= 0.96875
+5600 iterations,loss= 0.06635556 acc= 0.96875
+5700 iterations,loss= 0.094016254 acc= 0.96875
+5800 iterations,loss= 0.11451592 acc= 0.9375
+5900 iterations,loss= 0.07221112 acc= 0.96875
+6000 iterations,loss= 0.09306543 acc= 0.953125
+6100 iterations,loss= 0.13045256 acc= 0.921875
+6200 iterations,loss= 0.04505027 acc= 0.984375
+6300 iterations,loss= 0.057189234 acc= 0.984375
+6400 iterations,loss= 0.09373328 acc= 0.953125
+6500 iterations,loss= 0.09491508 acc= 0.96875
+6600 iterations,loss= 0.059403196 acc= 0.953125
+6700 iterations,loss= 0.03778073 acc= 0.984375
+6800 iterations,loss= 0.074447796 acc= 0.96875
+6900 iterations,loss= 0.08097451 acc= 0.96875
+7000 iterations,loss= 0.05605103 acc= 0.984375
+7100 iterations,loss= 0.019029893 acc= 1.0
+7200 iterations,loss= 0.048507363 acc= 0.96875
+7300 iterations,loss= 0.015332913 acc= 1.0
+7400 iterations,loss= 0.01693293 acc= 1.0
+7500 iterations,loss= 0.028389417 acc= 1.0
+7600 iterations,loss= 0.04660014 acc= 1.0
+7700 iterations,loss= 0.038062625 acc= 0.984375
+7800 iterations,loss= 0.044858728 acc= 0.984375
+7900 iterations,loss= 0.043116517 acc= 0.984375
+8000 iterations,loss= 0.08039718 acc= 0.96875
+8100 iterations,loss= 0.050712667 acc= 0.96875
+8200 iterations,loss= 0.07087055 acc= 0.96875
+8300 iterations,loss= 0.039784342 acc= 0.984375
+8400 iterations,loss= 0.044851072 acc= 0.984375
+8500 iterations,loss= 0.082844615 acc= 0.953125
+8600 iterations,loss= 0.02754029 acc= 1.0
+8700 iterations,loss= 0.013155988 acc= 1.0
+8800 iterations,loss= 0.024417099 acc= 1.0
+8900 iterations,loss= 0.03537832 acc= 1.0
+9000 iterations,loss= 0.014264835 acc= 1.0
+9100 iterations,loss= 0.033284664 acc= 1.0
+9200 iterations,loss= 0.07389392 acc= 0.984375
+9300 iterations,loss= 0.0151995905 acc= 1.0
+9400 iterations,loss= 0.067270644 acc= 0.953125
+9500 iterations,loss= 0.07353598 acc= 0.984375
+9600 iterations,loss= 0.053956106 acc= 0.984375
+9700 iterations,loss= 0.032210387 acc= 0.984375
+9800 iterations,loss= 0.0043440564 acc= 1.0
+9900 iterations,loss= 0.012141699 acc= 1.0

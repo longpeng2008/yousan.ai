@@ -1,0 +1,2 @@
+grep "Train net output #0: acc =" $1 > trainacc.refine
+grep "Test net output #0: acc =" $1 > testacc.refine

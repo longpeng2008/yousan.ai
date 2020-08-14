@@ -1,0 +1,11 @@
+net: "mobilenet_train.prototxt"
+base_lr: 0.0001
+momentum: 0.9
+momentum2: 0.999
+type: "Adam"
+lr_policy: "fixed"
+display: 100
+max_iter: 20000
+snapshot: 1000
+snapshot_prefix: "models/mobilenet_finetune"
+solver_mode: GPU

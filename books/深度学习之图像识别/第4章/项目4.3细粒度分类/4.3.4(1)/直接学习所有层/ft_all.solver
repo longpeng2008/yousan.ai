@@ -1,0 +1,18 @@
+test_iter: 300
+test_interval: 100
+display: 100
+max_iter: 60000
+
+base_lr: 0.01
+lr_policy: "multistep"
+gamma: 0.25
+stepvalue: 10000
+stepvalue: 20000
+stepvalue: 30000
+iter_size: 4
+
+momentum: 0.9
+weight_decay: 0.000
+snapshot: 10000
+snapshot_prefix: "snapshot/ft_all"
+net: "ft_all.prototxt"

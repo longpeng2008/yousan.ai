@@ -1,0 +1,1 @@
+grep "Train net output #1: loss =" log.txt > trainloss.refine

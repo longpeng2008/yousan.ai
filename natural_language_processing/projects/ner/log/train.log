@@ -1,0 +1,31 @@
+2019-10-24 21:31:36,156 - log\train.log - INFO - model_type     :	idcnn
+2019-10-24 21:31:36,156 - log\train.log - INFO - num_chars      :	4680
+2019-10-24 21:31:36,156 - log\train.log - INFO - char_dim       :	100
+2019-10-24 21:31:36,156 - log\train.log - INFO - num_tags       :	15
+2019-10-24 21:31:36,156 - log\train.log - INFO - seg_dim        :	20
+2019-10-24 21:31:36,156 - log\train.log - INFO - lstm_dim       :	100
+2019-10-24 21:31:36,156 - log\train.log - INFO - batch_size     :	20.0
+2019-10-24 21:31:36,156 - log\train.log - INFO - emb_file       :	D:\Users\pycharm project\di-cnn_NER\NER\data\vec.txt
+2019-10-24 21:31:36,156 - log\train.log - INFO - clip           :	5.0
+2019-10-24 21:31:36,156 - log\train.log - INFO - dropout_keep   :	0.5
+2019-10-24 21:31:36,156 - log\train.log - INFO - optimizer      :	adam
+2019-10-24 21:31:36,156 - log\train.log - INFO - lr             :	0.001
+2019-10-24 21:31:36,156 - log\train.log - INFO - tag_schema     :	iobes
+2019-10-24 21:31:36,156 - log\train.log - INFO - pre_emb        :	True
+2019-10-24 21:31:36,156 - log\train.log - INFO - zeros          :	True
+2019-10-24 21:31:36,156 - log\train.log - INFO - lower          :	False
+2019-10-24 21:31:37,312 - log\train.log - INFO - Created model with fresh parameters.
+2019-10-24 21:31:37,796 - log\train.log - INFO - Load pre-trained embedding.
+2019-10-24 21:31:37,796 - log\train.log - INFO - start training
+2019-10-24 21:31:50,501 - log\train.log - INFO - iteration:1 step:100/950, NER loss:61.804508
+2019-10-24 21:32:03,487 - log\train.log - INFO - iteration:1 step:200/950, NER loss:35.842102
+2019-10-24 21:32:16,113 - log\train.log - INFO - iteration:1 step:300/950, NER loss:24.195576
+2019-10-24 21:32:29,911 - log\train.log - INFO - iteration:1 step:400/950, NER loss:18.867163
+2019-10-24 21:32:42,584 - log\train.log - INFO - iteration:1 step:500/950, NER loss:14.894351
+2019-10-24 21:32:56,212 - log\train.log - INFO - iteration:1 step:600/950, NER loss:12.988856
+2019-10-24 21:33:09,948 - log\train.log - INFO - iteration:1 step:700/950, NER loss:11.877559
+2019-10-24 21:33:24,918 - log\train.log - INFO - iteration:1 step:800/950, NER loss:18.531338
+2019-10-24 21:33:39,732 - log\train.log - INFO - iteration:1 step:900/950, NER loss: 9.881031
+2019-10-24 21:33:50,383 - log\train.log - INFO - model saved
+2019-10-24 21:33:58,382 - log\train.log - INFO - iteration:2 step:50/950, NER loss: 9.088954
+2019-10-24 21:34:10,270 - log\train.log - INFO - iteration:2 step:150/950, NER loss: 6.658930
