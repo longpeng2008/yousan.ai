@@ -90,7 +90,7 @@ if __name__ == '__main__':
         ]),
     }
 
-    data_dir = './da/'
+    data_dir = './data/'
     image_datasets = {x: datasets.ImageFolder(os.path.join(data_dir, x),
                                               data_transforms[x]) for x in ['train', 'val']}
     dataloders = {x: torch.utils.data.DataLoader(image_datasets[x],
