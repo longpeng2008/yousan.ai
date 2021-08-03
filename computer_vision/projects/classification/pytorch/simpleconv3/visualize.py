@@ -2,7 +2,6 @@ from graphviz import Digraph
 import torch
 from torch.autograd import Variable
 
-
 def make_dot(var, params=None):
     """ Produces Graphviz representation of PyTorch autograd graph
     Blue nodes are the Variables that require grad, orange are Tensors
