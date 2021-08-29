@@ -9,13 +9,11 @@
 # or create issues
 # =============================================================================
 
-import os
 import sys
-import base64
-import json
-import math
-import cv2
 import random
+
+#file_in 输入txt文件
+#file_out 输出txt文件
 
 def shuffle(file_in,file_out):
     fin = open(file_in,'r')

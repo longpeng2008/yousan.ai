@@ -10,6 +10,7 @@
 # =============================================================================
 
 import sys
+#valratio:验证集比例
 def splittrain_val(fileall,valratio=0.1):
     fileids = fileall.split('.')
     fileid = fileids[len(fileids)-2]
