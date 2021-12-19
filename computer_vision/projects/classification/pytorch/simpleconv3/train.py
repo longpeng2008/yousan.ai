@@ -34,9 +34,9 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
             else:
                 model.train(False)  ## 设置为验证模式
 
-            running_loss = 0.0 ## 损失变量
+            running_loss = 0.0 ##损失变量
             running_accs = 0.0 ##精度变量
-
+            number_batch = 0 ##
             ## 从dataloaders中获得数据
             for data in dataloaders[phase]:
                 inputs, labels = data 
@@ -54,9 +54,10 @@ def train_model(model, criterion, optimizer, scheduler, num_epochs=25):
 
                 running_loss += loss.data.item()
                 running_accs += torch.sum(preds == labels).item()
+                number_batch += 1
 
             ## 得到每一个epoch的平均损失与精度
-            epoch_loss = running_loss / dataset_sizes[phase]
+            epoch_loss = running_loss / number_batch
             epoch_acc = running_accs / dataset_sizes[phase]
             
             ## 收集精度和损失用于可视化
