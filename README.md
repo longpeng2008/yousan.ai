@@ -3,7 +3,7 @@ yansan.ai
 
 What is yousan.ai
 --------------------------------------
-It is a project which provides a lot of resources you may need in your 'deeplearning' study，including projects and ebooks.
+It is a project which provides a lot of resources you may need in your 'deeplearning' study，including projects, ebooks and course.
 
 Supported framework
 --------------------------------------
@@ -41,6 +41,19 @@ ebooks
 --------------------------------------
 - 有三AI视觉算法工程师成长指导手册.
 - 有三AI深度学习开源框架实践指导手册.
+
+course
+--------------------------------------
+- 深度学习之数据使用.
+- 深度学习之图像分类.
+- 深度学习之图像分割.
+- 深度学习之目标检测.
+- 深度学习之图像生成.
+- 深度学习之模型分析.
+- 深度学习之模型设计.
+- 深度学习之模型优化.
+- 深度学习之模型部署.
+- 深度学习之视频分类.
 
 Problems
 --------------------------------------
