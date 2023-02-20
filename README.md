@@ -36,6 +36,7 @@ books
 - 深度学习之模型设计.
 - 深度学习之人脸图像.
 - 深度学习之摄影图像.
+- 生成对抗网络GAN.
 
 ebooks
 --------------------------------------
@@ -48,13 +49,17 @@ course
 - 深度学习之图像分类.
 - 深度学习之图像分割.
 - 深度学习之目标检测.
-- 深度学习之图像生成.
+- 深度学习之图像生成GAN.
+- 深度学习之图像翻译GAN.
+- 深度学习之图像增强GAN.
 - 深度学习之模型分析.
 - 深度学习之模型设计.
 - 深度学习之模型优化.
 - 深度学习之模型部署.
 - 深度学习之视频分类.
+- 深度学习之人脸检测与识别.
+- 深度学习之人脸属性编辑.
 
 Problems
 --------------------------------------
-- If you failed to download this project,please look at 链接:https://pan.baidu.com/s/1TrDpgS13l777CjqYXmQXLw  密码:0hz5 or https://gitee.com/yanyousan/yousan.ai or 有三AI知识星球.
+- If you failed to download this project, please look at https://gitee.com/yanyousan/yousan.ai
