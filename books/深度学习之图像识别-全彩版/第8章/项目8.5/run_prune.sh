@@ -1,0 +1,9 @@
+python3 simpleconv3prune.py --percent 0.1 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar
+python3 simpleconv3prune.py --percent 0.2 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar 
+python3 simpleconv3prune.py --percent 0.3 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar
+python3 simpleconv3prune.py --percent 0.4 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar
+python3 simpleconv3prune.py --percent 0.5 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar
+python3 simpleconv3prune.py --percent 0.6 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar
+python3 simpleconv3prune.py --percent 0.7 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar 
+python3 simpleconv3prune.py --percent 0.8 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar
+python3 simpleconv3prune.py --percent 0.9 --save results/regu/lamda=0.001/c=32-64-128-0.93/pruned --model results/regu/lamda=0.001/c=32-64-128-0.93/checkpoint/model_best.pth.tar

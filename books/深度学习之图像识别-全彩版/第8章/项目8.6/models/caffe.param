@@ -1,0 +1,18 @@
+7767517
+16 16
+Input            data             0 1 data 0=48 1=48 2=3
+Convolution      conv1            1 1 data conv1 0=12 1=3 2=1 3=2 4=1 5=1 6=324
+BatchNorm        conv1/bn         1 1 conv1 conv1_conv1/bn 0=12
+Scale            conv1/scale      1 1 conv1_conv1/bn conv1_conv1/scale 0=12 1=1
+ReLU             relu1            1 1 conv1_conv1/scale conv1_relu1
+Convolution      conv2            1 1 conv1_relu1 conv2 0=24 1=3 2=1 3=2 4=1 5=1 6=2592
+BatchNorm        conv2/bn         1 1 conv2 conv2_conv2/bn 0=24
+Scale            conv2/scale      1 1 conv2_conv2/bn conv2_conv2/scale 0=24 1=1
+ReLU             relu2            1 1 conv2_conv2/scale conv2_relu2
+Convolution      conv3            1 1 conv2_relu2 conv3 0=48 1=3 2=1 3=2 4=1 5=1 6=10368
+BatchNorm        conv3/bn         1 1 conv3 conv3_conv3/bn 0=48
+Scale            conv3/scale      1 1 conv3_conv3/bn conv3_conv3/scale 0=48 1=1
+ReLU             relu3            1 1 conv3_conv3/scale conv3_relu3
+InnerProduct     ip1              1 1 conv3_relu3 ip1 0=128 1=1 2=221184
+InnerProduct     ip2              1 1 ip1 ip2 0=2 1=1 2=256
+Softmax          prob             1 1 ip2 prob 0=0 1=1

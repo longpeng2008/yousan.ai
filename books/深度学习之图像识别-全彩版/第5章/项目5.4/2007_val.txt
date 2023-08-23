@@ -1,0 +1,10 @@
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/90.jpg 386,140,730,438,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/91.jpg 696,419,770,480,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/92.jpg 157,170,551,503,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/93.jpg 456,338,673,513,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/94.jpg 207,138,715,555,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/95.jpg 219,422,353,527,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/96.jpg 133,447,352,799,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/97.jpg 717,639,1038,957,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/98.jpg 187,228,368,458,0
+/Users/longpeng/Desktop/中国地质大学2022年寒假/1月6日-目标检测/yolo3-pytorch-master/VOCdevkit/VOC2007/JPEGImages/99.jpg 356,269,536,397,0

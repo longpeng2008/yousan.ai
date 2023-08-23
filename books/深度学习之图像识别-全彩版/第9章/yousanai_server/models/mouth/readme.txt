@@ -1,0 +1,1 @@
+下载shape_predictor_68_face_landmarks.dat，haarcascade_frontalface_default.xml放置到这里
