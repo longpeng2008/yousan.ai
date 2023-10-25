@@ -18,5 +18,5 @@ PyMySQL==0.8.0
 requests==2.18.4
 SQLAlchemy==1.2.2
 urllib3==1.22
-Werkzeug==0.14.1
+Werkzeug==3.0.1
 WTForms==2.1
