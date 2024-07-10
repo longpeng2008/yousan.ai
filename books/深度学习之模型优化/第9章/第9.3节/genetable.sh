@@ -1,0 +1,1 @@
+../build/install/bin/ncnn2table models/simpleconv5.param models/simpleconv5.bin GHIM-20/images.txt models/simpleconv5.table mean=[127.5,127.5,127.5] norm=[0.00784,0.00784,0.00784] shape=[224,224,3] pixel=RGB
