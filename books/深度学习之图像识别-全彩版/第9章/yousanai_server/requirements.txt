@@ -4,7 +4,7 @@ click==6.7
 Flask==0.12.2
 Flask-SQLAlchemy==2.3.2
 Flask-WTF==0.14.2
-gevent==1.2.2
+gevent==23.9.1
 greenlet==0.4.13
 gunicorn==19.7.1
 idna==2.6
